@@ -26,8 +26,8 @@ setup(
     author='Shreyas Kamath',
     author_email='shreyaskamath18@gmail.com',
     license='MIT',
-    url='http://git.deltalima.net/flaskup/',
-    download_url='http://git.deltalima.net/flaskup/snapshot/flaskup-'+version+'.tar.gz',
+    url='https://github.com/s18k/iris-predictor',
+    
     packages=['iris-predictor'],
     include_package_data=True,
     zip_safe=False,

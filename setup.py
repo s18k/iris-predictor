@@ -29,7 +29,7 @@ setup(
     license='MIT',
     url='https://github.com/s18k/iris-predictor',
     
-	download_url='{0}/archive/{1}-{2}'.format(base_url, package_name,version)
+	download_url='{0}/archive/{1}-{2}'.format(base_url, package_name,version),
     packages=['iris-predictor'],
     include_package_data=True,
     zip_safe=False,

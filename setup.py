@@ -18,7 +18,8 @@ def parse_requirements(file_name):
 
     return requirements
 
-
+package_name='iris-predictor'
+base_url = 'https://github.com/s18k/iris-predictor/'
 setup(
     name='iris-predictor',
     version=version,
@@ -28,6 +29,7 @@ setup(
     license='MIT',
     url='https://github.com/s18k/iris-predictor',
     
+	download_url='{0}/archive/{1}-{2}'.format(base_url, package_name,version)
     packages=['iris-predictor'],
     include_package_data=True,
     zip_safe=False,
